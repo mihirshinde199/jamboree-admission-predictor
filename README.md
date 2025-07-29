@@ -96,7 +96,6 @@ Jamboree wants to estimate the **probability of admission** for students applyin
 ---
 
 ## ▶️ How to Run
-
 ```bash
 # Step 1: Clone the repo
 git clone https://github.com/yourusername/jamboree-admission-predictor.git
@@ -106,3 +105,34 @@ pip install -r requirements.txt
 
 # Step 3: Run main script
 python main.py
+```
+
+---
+
+## 📂 Folder Guide
+- data/ – Input CSV file
+- notebooks/ – Jupyter Notebook for exploration
+- src/ – Modular source scripts
+- outputs/ – Graphs, residuals, saved model summary
+- main.py – Executes the complete pipeline
+
+---
+
+## 🙋‍♂️ Author
+- Mihir Shinde
+- 📧 your.email@example.com
+- 🔗 LinkedIn
+- 🐙 GitHub
+
+---
+
+## 📄 `requirements.txt`
+
+```txt
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+```
